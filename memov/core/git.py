@@ -20,6 +20,7 @@ def subprocess_call(
             check=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
+            stdin=subprocess.DEVNULL,
             encoding="utf-8",
             text=text,
             input=input,
